@@ -15,7 +15,7 @@
 A powerful email summarization tool that combines the capabilities of Gmail API with Google's Gemini AI to transform lengthy emails into concise, easy-to-read summaries. The application features a modern React frontend and a Flask backend, providing a seamless user experience.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/nehavaishnav/Email-Summarizer-Gemini-API-/main/screenshots/demo.gif" alt="Demo" width="600"/>
+  <img src="https://raw.githubusercontent.com/nehavaishnav/Email-Summarizer-Gemini-API--main/main/screenshots/demo.gif" alt="Demo" width="600"/>
 </div>
 
 ## ✨ Key Features
@@ -63,35 +63,42 @@ Before you begin, ensure you have:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/nehavaishnav/Email-Summarizer-Gemini-API-.git
-cd Email-Summarizer-Gemini-API-
+git clone https://github.com/KeshavX3/Email-Summarizer.git
+cd Email-Summarizer-main
 ```
 
 ### 2. Backend Setup
 ```bash
 cd backend
 pip install -r requirements.txt
+
+# Create .env file with your Gemini API key
+echo "GEMINI_API_KEY=your_gemini_api_key" > .env
+
+# Run the backend server
+python main.py
 ```
 
-Create a `.env` file:
-```env
-GEMINI_API_KEY=your_gemini_api_key
-```
+The backend server will start running on `http://localhost:5000`. Keep this terminal window open.
 
 ### 3. Frontend Setup
 ```bash
+# Open a new terminal window
 cd frontend
 npm install
+npm start
 ```
+
+The frontend will start running on `http://localhost:3000`
 
 ## 🏗️ Project Structure
 
 ```
-📁 Email-Summarizer-Gemini-API-
+📁 Email-Summarizer-Gemini-API--main
 │
 ├── 📁 backend/
 │   ├── 📁 credentials/        # Gmail API credentials
-│   ├── 📄 main.py            # Flask server
+│   ├── 📄 main.py            # Flask server (Run this to start backend)
 │   ├── 📄 gmail_reader.py    # Gmail API integration
 │   ├── 📄 summarizer.py      # Gemini AI integration
 │   ├── 📄 requirements.txt   # Python dependencies
@@ -108,19 +115,25 @@ npm install
 
 ## 🎮 Usage
 
-1. Start the backend server:
-```bash
-cd backend
-python main.py
-```
+1. **Start the Backend Server**
+   ```bash
+   cd backend
+   python main.py
+   ```
+   The backend server will run on `http://localhost:5000`
 
-2. Start the frontend development server:
-```bash
-cd frontend
-npm start
-```
+2. **Start the Frontend Development Server**
+   ```bash
+   cd frontend
+   npm start
+   ```
+   The frontend will open automatically in your default browser at `http://localhost:3000`
 
-3. Open your browser and navigate to `http://localhost:3000`
+3. **Using the Application**
+   - Select your preferred tone (Professional, Regular, or Friendly)
+   - Paste your email in the text area
+   - Click "Generate Summary" to get your AI-powered summary
+   - Use the copy button to copy the summary to your clipboard
 
 ## 📸 Screenshots
 
@@ -132,12 +145,17 @@ npm start
 ## 🔧 Configuration
 
 ### Backend Configuration
-- Update `.env` with your Gemini API key
-- Place Gmail API credentials in `credentials/` directory
+1. Navigate to the backend directory
+2. Create a `.env` file with your Gemini API key:
+   ```env
+   GEMINI_API_KEY=your_gemini_api_key
+   ```
+3. Place your Gmail API credentials in the `credentials/` directory
+4. Run `python main.py` to start the backend server
 
 ### Frontend Configuration
 - Customize colors in `App.css`
-- Modify API endpoints in `App.js`
+- Modify API endpoints in `App.js` if needed
 
 ## 🤝 Contributing
 
@@ -167,4 +185,4 @@ For support, email [your-email@example.com] or open an issue in the repository.
 
 <div align="center">
   Made with ❤️ by [Your Name]
-</div> "# Email-Summarizer" 
+</div>

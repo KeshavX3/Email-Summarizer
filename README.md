@@ -15,7 +15,7 @@
 A powerful email summarization tool that combines the capabilities of Gmail API with Google's Gemini AI to transform lengthy emails into concise, easy-to-read summaries. The application features a modern React frontend and a Flask backend, providing a seamless user experience.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/nehavaishnav/Email-Summarizer-Gemini-API--main/main/screenshots/demo.gif" alt="Demo" width="600"/>
+  <img src="https://raw.githubusercontent.com/KeshavX3/Email-Summarizer/main/screenshots/demo.gif" alt="Demo" width="600"/>
 </div>
 
 ## ✨ Key Features
@@ -94,7 +94,7 @@ The frontend will start running on `http://localhost:3000`
 ## 🏗️ Project Structure
 
 ```
-📁 Email-Summarizer-Gemini-API--main
+📁 Email-Summarizer-main
 │
 ├── 📁 backend/
 │   ├── 📁 credentials/        # Gmail API credentials
@@ -179,10 +179,25 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, email [your-email@example.com] or open an issue in the repository.
+<div align="center">
+  <h3>Need Help? Contact Us!</h3>
+  
+  <div style="display: flex; justify-content: center; gap: 2rem; margin: 1rem 0;">
+    <div>
+      <h4>Technical Support</h4>
+      <p>📧 <a href="mailto:keshavvr1@gmail.com">keshavvr1@gmail.com</a></p>
+    </div>
+    <div>
+      <h4>General Inquiries</h4>
+      <p>📧 <a href="mailto:nehavaishnav250@gmail.com">nehavaishnav250@gmail.com</a></p>
+    </div>
+  </div>
+
+  <p>Or open an issue in our <a href="https://github.com/KeshavX3/Email-Summarizer/issues">GitHub repository</a></p>
+</div>
 
 ---
 
 <div align="center">
-  Made with ❤️ by [Your Name]
+  Made by Keshav and Neha 
 </div>

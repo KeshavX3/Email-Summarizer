@@ -180,24 +180,25 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 <div align="center">
-  <h3>Need Help? Contact Us!</h3>
+  <h3>Project Maintainers</h3>
   
   <div style="display: flex; justify-content: center; gap: 2rem; margin: 1rem 0;">
     <div>
-      <h4>Technical Support</h4>
+      <h4>Keshav</h4>
       <p>📧 <a href="mailto:keshavvr1@gmail.com">keshavvr1@gmail.com</a></p>
     </div>
     <div>
-      <h4>General Inquiries</h4>
+      <h4>Neha</h4>
       <p>📧 <a href="mailto:nehavaishnav250@gmail.com">nehavaishnav250@gmail.com</a></p>
     </div>
   </div>
 
-  <p>Or open an issue in our <a href="https://github.com/KeshavX3/Email-Summarizer/issues">GitHub repository</a></p>
+  <p>For any queries or support, feel free to reach out to either of us!</p>
+  <p>You can also open an issue in our <a href="https://github.com/KeshavX3/Email-Summarizer/issues">GitHub repository</a></p>
 </div>
 
 ---
 
 <div align="center">
-  Made by Keshav and Neha 
+  Made by Keshav and Neha
 </div>
